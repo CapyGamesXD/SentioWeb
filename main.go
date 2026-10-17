@@ -5,8 +5,9 @@ import (
 	"os"
 )
 
-func enlistEmail(email string) {
+func addEmail(email string) {
 	//Send email
+	fmt.Println("Adding user:", email)
 
 }
 
@@ -31,5 +32,5 @@ func main() {
 		fmt.Println("\033[33m" + "Warning: no emails in record" + "\033[0m")
 	}
 
-	enlistEmail("capy@capydesigns.com")
+	addEmail("capy@capydesigns.com")
 }
